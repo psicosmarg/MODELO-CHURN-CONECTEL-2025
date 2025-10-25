@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# GITIGNORE MAESTRO PARA PROYECTOS DE CIENCIA DE DATOS (VERSIÓN 1.0)
+# ---------------------------------------------------------------------------
+
+# 1. ARCHIVOS DE SISTEMA Y CACHÉ DE R / RSTUDIO
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+.Renviron
+.Ruserdata/
+
+# 2. CÓDIGO FUENTE Y PROPIEDAD INTELECTUAL (LA "BÓVEDA")
+*.R
+*.Rmd
+*.py
+app.R
+
+# 3. DATOS CRUDOS Y PROCESADOS
+*.csv
+*.xlsx
+*.xls
+*.json
+*.sav
+*.rda
+*.RData
+
+# 4. CARPETAS PRIVADAS COMUNES
+data/
+visualizaciones/
+scripts/
+private/
+RDataImp/
+sensitive/
+
+# 5. ENTREGABLES INTERNOS Y DOCUMENTOS
+*.docx
+*.pdf
+*.pptx
+*.txt
+
+# 6. ARCHIVOS DE PROYECTO Y PAQUETES
+*.Rproj
+renv/
+rsconnect/
