@@ -22,7 +22,7 @@ El análisis reveló que el riesgo de churn no es aleatorio, sino que está alta
 
 El Árbol de Decisión nos muestra el camino exacto hacia la fuga. La decisión más importante que toma el modelo se basa en el tipo de contrato, seguido por la antigüedad del cliente.
 
-![Árbol de Decisión para la Fuga de Clientes](visualizaciones/arbol_decision_churn_publico.png)
+![Árbol de Decisión para la Fuga de Clientes](docs/arbol_decision_churn_publico.png)
 
 El perfil de riesgo máximo es claro: **Un cliente nuevo (baja antigüedad), con un contrato mes a mes y que tiene contratado el servicio de Fibra Óptica.**
 
@@ -34,3 +34,7 @@ El descubrimiento de este perfil nos permite aplicar una "destrucción creativa"
 2.  **Incentivar el Compromiso:** Crear campañas para migrar a los clientes "mes a mes" a contratos anuales.
 
 Este enfoque permite a "ConnecTel" dirigir sus recursos de manera eficiente, actuando únicamente sobre el segmento que más lo necesita y en el momento más crítico.
+
+## 7. Ver el Reporte Completo
+
+**[Visualizar el Reporte Interactivo Completo aquí](https://psicosmarg.github.io/MODELO-CHURN-CONECTEL-2025/)**
